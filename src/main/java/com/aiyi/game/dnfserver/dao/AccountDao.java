@@ -1,6 +1,6 @@
 package com.aiyi.game.dnfserver.dao;
 
-import com.aiyi.game.dnfserver.entity.AccountVO;
+import com.aiyi.game.dnfserver.bean.login.AccountVO;
 import org.apache.ibatis.annotations.*;
 
 import java.util.Date;
@@ -54,7 +54,7 @@ public interface AccountDao {
             "        accounts.accountname AS accountname,\n" +
             "        accounts.password AS password,\n" +
             "        accounts.qq AS qq,\n" +
-            "        accounts.vip AS vip,\n" +
+            "        accounts.ip AS vip,\n" +
             "        login_account.login_ip AS loginIp,\n" +
             "        login_account.m_channel_no AS channelNo,\n" +
             "        login_account.last_login_date AS lastLoginDate,\n" +

@@ -1,7 +1,7 @@
 package com.aiyi.game.dnfserver.controller;
 
-import com.aiyi.game.dnfserver.entity.AccountVO;
-import com.aiyi.game.dnfserver.service.AccountService;
+import com.aiyi.game.dnfserver.bean.login.AccountVO;
+import com.aiyi.game.dnfserver.handler.AccountHandler;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ import javax.annotation.Resource;
 public class RechargeController {
 
     @Resource
-    private AccountService accountService;
+    private AccountHandler accountService;
 
     /**
      * recharge in the user

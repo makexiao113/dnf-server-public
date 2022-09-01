@@ -1,9 +1,8 @@
 package com.aiyi.game.dnfserver.controller;
 
 import com.aiyi.core.beans.ResultPage;
-import com.aiyi.game.dnfserver.conf.NoLogin;
 import com.aiyi.game.dnfserver.entity.Postal;
-import com.aiyi.game.dnfserver.service.PostalService;
+import com.aiyi.game.dnfserver.handler.PostalService;
 import com.aiyi.game.dnfserver.utils.ChinaseUtil;
 import org.springframework.web.bind.annotation.*;
 

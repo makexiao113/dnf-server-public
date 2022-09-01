@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan({"com.aiyi"})
 public class DnfServerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DnfServerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DnfServerApplication.class, args);
+    }
 }

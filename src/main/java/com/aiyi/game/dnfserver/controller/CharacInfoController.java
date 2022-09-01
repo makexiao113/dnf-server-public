@@ -3,7 +3,7 @@ package com.aiyi.game.dnfserver.controller;
 import com.aiyi.core.beans.ResultPage;
 import com.aiyi.game.dnfserver.conf.NoLogin;
 import com.aiyi.game.dnfserver.entity.CharacInfo;
-import com.aiyi.game.dnfserver.service.CharacService;
+import com.aiyi.game.dnfserver.handler.CharacService;
 import com.aiyi.game.dnfserver.utils.ChinaseUtil;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

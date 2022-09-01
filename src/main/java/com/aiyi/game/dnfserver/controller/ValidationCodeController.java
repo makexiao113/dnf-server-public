@@ -8,9 +8,8 @@ import com.aiyi.core.util.CodeUtil;
 import com.aiyi.game.dnfserver.conf.CommonAttr;
 import com.aiyi.game.dnfserver.conf.NoLogin;
 import com.aiyi.game.dnfserver.dao.AccountVODao;
-import com.aiyi.game.dnfserver.dao.User;
 import com.aiyi.game.dnfserver.entity.AccountVO;
-import com.aiyi.game.dnfserver.service.SmsService;
+import com.aiyi.game.dnfserver.handler.SmsService;
 import com.aiyi.game.dnfserver.utils.cache.CacheUtil;
 import com.aiyi.game.dnfserver.utils.cache.Key;
 import com.wf.captcha.SpecCaptcha;
@@ -20,7 +19,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
-import java.awt.*;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Map;
